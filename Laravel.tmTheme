@@ -1001,6 +1001,135 @@
                     <string>#DDB700</string>
                 </dict>
             </dict>
+
+            <!-- phpunitkit -->
+            <dict>
+            <key>scope</key>
+            <string>test.footer.none-executed, test.footer.ok-but-incomplete-skipped-or-risky</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#DDB700</string>
+                <key>foreground</key>
+                <string>#000000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>test.footer.ok</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#2e7d32</string>
+                <key>foreground</key>
+                <string>#ffffff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>test.footer.fail</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#da564a</string>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>test.progress.failure</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#da564a</string>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>test.progress.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#da564a</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>test.progress.incomplete, test.progress.risky</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>test.progress.skipped</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#4ea1df</string>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.diff, meta.diff.header</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#75715e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.deleted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e88388</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>markup.inserted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#2e7d32</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>diff.changed</string>
+            <key>scope</key>
+            <string>markup.changed</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>diff.range</string>
+            <key>scope</key>
+            <string>meta.diff, meta.diff.range</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#4ea1df</string>
+            </dict>
+        </dict>
+        <!-- end phpunitkit -->
         </array>
     </dict>
 </plist>
