@@ -60,6 +60,7 @@ This colour scheme ought to work with any language in Sublime Text, it has been 
 * Markdown
 * [GitGutter](https://packagecontrol.io/packages/GitGutter)
 * [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
+* [phpunitkit](https://packagecontrol.io/packages/phpunitkit)
 
 ## About
 
