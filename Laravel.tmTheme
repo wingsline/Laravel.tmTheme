@@ -16,7 +16,7 @@
                     <key>invisibles</key>
                     <string>#999</string>
                     <key>caret</key>
-                    <string>#555</string>
+                    <string>#fc7808</string>
 
                     <key>gutter</key>
                     <string>#eeeeee</string>
@@ -42,7 +42,7 @@
                     <string>#ffffff</string>
 
                     <key>bracketsForeground</key>
-                    <string>#555</string>
+                    <string>#d80e64</string>
                     <key>bracketsOptions</key>
                     <string>foreground</string>
                     <key>bracketContentsForeground</key>
@@ -51,7 +51,7 @@
                     <string>foreground</string>
 
                     <key>tagsForeground</key>
-                    <string>#555</string>
+                    <string>#dcb628</string>
                     <key>tagsOptions</key>
                     <string>underline</string>
                 </dict>
